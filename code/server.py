@@ -10,7 +10,7 @@ import socket
 print()
 #print(f'Server IP: {server_ip}')
 print()
-opensshDir = os.path.expanduser('~/openssh')
+opensshDir = os.path.expanduser('~/openssh/')
 
 
 myCmd = f'{opensshDir}./sshd -D -f {opensshDir}/regress/sshd_config -o KexAlgorithms=kyber-512-sha256 -o HostKeyAlgorithms=ssh-dilithium2 -o PubkeyAcceptedKeyTypes=ssh-dilithium2 -h {opensshDir}/regress/host.ssh-dilithium2'
