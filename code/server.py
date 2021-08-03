@@ -3,7 +3,7 @@ import socket
 
 def getIP():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	s.connect(('8.8.8.8', 1))
+	s.connect(('8.8.8.8',1))
 	return s.getsockname()[0]
 
 server_ip = getIP()
