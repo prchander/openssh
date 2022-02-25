@@ -74,10 +74,14 @@ kexs = [
     "ecdh-nistp256-ntru-hps2048509-sha512",
     "ntru-hps2048677-sha512",
     "ecdh-nistp384-ntru-hps2048677-sha512",
-    "ntru-hrss701-sha512",
-    "ecdh-nistp384-ntru-hrss701-sha512",
     "ntru-hps4096821-sha512",
     "ecdh-nistp521-ntru-hps4096821-sha512",
+    "ntru-hps40961229-sha512",
+    "ecdh-nistp521-ntru-hps40961229-sha512",
+    "ntru-hrss701-sha512",
+    "ecdh-nistp384-ntru-hrss701-sha512",
+    "ntru-hrss1373-sha512",
+    "ecdh-nistp521-ntru-hrss1373-sha512",
     "classic-mceliece-348864-sha256",
     "ecdh-nistp256-classic-mceliece-348864-sha256",
     "classic-mceliece-348864f-sha256",
@@ -116,6 +120,10 @@ kexs = [
     "ecdh-nistp384-ntruprime-ntrulpr857-sha384",
     "ntruprime-sntrup857-sha384",
     "ecdh-nistp384-ntruprime-sntrup857-sha384",
+    "ntruprime-ntrulpr1277-sha512",
+    "ecdh-nistp521-ntruprime-ntrulpr1277-sha512",
+    "ntruprime-sntrup1277-sha512",
+    "ecdh-nistp521-ntruprime-sntrup1277-sha512",
 ##### OQS_TEMPLATE_FRAGMENT_LIST_ALL_KEXS_END
 ]
 
